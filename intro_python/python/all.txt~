@@ -1,0 +1,115 @@
+Exercise 1
+------------
+print "hello"
+#variables
+#integer
+a = 2
+print a*2
+#float
+a= 2.34
+print a*2
+#character
+a = "c"
+print a*2
+#string
+a = "hello ceglug"
+print a*2
+
+Exercise 2
+----------
+#input
+name_number = input("Enter your name: ")
+print ('Hello', name_number)
+
+name = raw_input("enter your name: ")
+print ("Hello", name)
+
+Exercise 3
+----------
+#input and if then else syntax
+number = input("Enter the number ")
+print ('Hello', number)
+
+if number == 2:
+    print ("The value of number is: ",number)
+elif number == 4:
+    print ("The value of number is: ",number)
+else:
+    print ("Neither 2, nor 4, the number is: ", number)
+
+Exercise 4
+-----------
+def add(p,q):
+    return p+q
+    
+def subtract(p,q):
+    return p-q
+
+def multiply (p,q):
+    return p*q
+
+def divide (p,q):
+    return float(p)/float(q)
+a = 4
+b = 6
+
+print add (a,b)
+print subtract (a,b)
+print multiply (a,b)
+print float(divide (a,b))
+
+Exercise 5
+----------
+#lists
+
+names = ['darwin', 'krishna', 'dickens']
+names[0] = "bharathiar"
+number = [ 6, 7,8,9]
+print names[0], number[0]
+
+print names + number
+
+print [names]+[number]
+
+Exercise 6
+-----------
+# dictionary
+students = {1:"ram", 2: "govind", 3: "asura"}
+print students
+print students[1]
+print len (students)
+
+for i,v in students.items ():
+    print i,v
+
+Exercise 7
+-----------
+#tuple
+
+tuple1 = ('python', 'ruby','c','java')
+list1 = ['python','ruby','c','java']
+print tuple1
+print list1
+# Let's include windows in the list and it works!
+list1[1] = "windows"
+print list1
+# Windows does not work here!
+tuple1[1] = "windows"
+print tuple1
+
+Exercise 8
+-----------
+#file reading and writing
+
+file1 = open('test.txt')
+for line in file1:
+    print line    
+file2 = open('test2.txt','w')
+line2 = "This is a text from the program \n"
+file2.write(line2)
+
+
+
+
+
+

@@ -1,0 +1,12 @@
+#tuple
+
+tuple1 = ('python', 'ruby','c','java')
+list1 = ['python','ruby','c','java']
+print tuple1
+print list1
+
+list1[1] = "windows"
+print list1
+
+tuple1[1] = "windows"
+print tuple1

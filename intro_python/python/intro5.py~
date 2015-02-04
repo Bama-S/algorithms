@@ -1,0 +1,9 @@
+#lists
+
+names = ['darwin', 'krishna', 'dickens']
+number = [ 6, 7,8,9]
+print names[:1], number
+
+print names + number
+
+print [names]+[number]
