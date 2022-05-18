@@ -1,0 +1,11 @@
+def toStr(n,base):
+   convertString = "ABCDEFGHIJ"
+   if n < base:
+      return convertString[n]
+   else:
+      print n//base 
+      print "ttt", n%base
+      print "mapping",convertString[n%base]
+      return toStr(n//base,base) + convertString[n%base]
+
+print(toStr(2,3))

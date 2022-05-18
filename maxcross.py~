@@ -1,0 +1,10 @@
+def maxcross(a):
+    leftsum = -99999
+    sum = 0
+    
+
+
+
+
+a = [-10,5,3,-4,2,-3,7,1,2,-5]
+maxcross(a)

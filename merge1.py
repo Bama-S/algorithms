@@ -5,7 +5,7 @@ alist = [55,20,30,60]
 i = 0
 j = 0
 k = 0
-print len(alist)
+print (len(alist))
 
 for k in range(0,len(alist)):
     if lefthalf[i]<=righthalf[j]:
@@ -14,4 +14,4 @@ for k in range(0,len(alist)):
     else:
         alist[k] = righthalf[j]
         j = j+1
-print alist
+print (alist)

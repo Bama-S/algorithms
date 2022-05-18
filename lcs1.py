@@ -1,0 +1,9 @@
+#finding the lcs through recursive approach
+matrix = [[0 for i in range (5) ] for j in range (5)]
+for i in range (5):
+    a = 0
+    for j in range (5):
+        a+=1
+        matrix[i][j] = a
+for row in matrix:
+    print row

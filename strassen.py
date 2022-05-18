@@ -4,8 +4,8 @@ def mergesort(alist):
         mid = len(alist)//2
         lefthalf = alist[:mid]
         righthalf = alist[mid:]
-        print ("left half", lefthalf, ":", )
-        print ("right half", righthalf)
+        print "left half", lefthalf, ":", 
+        print "right half", righthalf
         mergesort(lefthalf)#recurrence
         mergesort(righthalf) #recurrence
         i =0
@@ -20,6 +20,9 @@ def mergesort(alist):
             else:
                 alist[k] = righthalf[j]
                 j = j+1
-        print ("sorted list for",lefthalf,righthalf,":",alist)
+        print "sorted list for",lefthalf,righthalf,":",alist
+        
+
+
 alist = [5,2,4,7,1,3,2,6]
 mergesort(alist)
