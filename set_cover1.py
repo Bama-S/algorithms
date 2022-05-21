@@ -1,4 +1,5 @@
 #Works with s0 as a dummy subset
+
 def calculate_cost(cost,sset):
     total = 0
     for i in sset:
